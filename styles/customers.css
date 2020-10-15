@@ -1,0 +1,66 @@
+.customers-title{
+    text-align: center;
+    margin-top: 107px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.customers {
+    height: 430px;
+
+}
+
+.customers-title:after{
+    content:"";
+    display: block;
+    width: 64px;
+    height: 3px;
+    background-color: orange;
+    margin: 30px auto;
+}
+
+.review-cards {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    text-align: left;
+}
+
+.review-cards div{
+    width: 273px;
+    margin-top: 20px;
+
+}
+
+.review-text{
+    background-color: rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding: 20px;
+    font-style: italic;
+}
+
+.review-text:before { 
+	content: ' '; 
+	position: absolute; 
+	width: 0; 
+	height: 0; 
+	left: 30px; 
+	top: 117px; 
+	border: 10px solid; 
+    border-color: rgba(0, 0, 0, 0.1) transparent transparent rgba(0, 0, 0, 0.1); 
+}
+
+.review-cards img{
+    margin-top: 35px;
+    position: absolute;
+}
+
+.name-prof{
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+
+.name-prof p{
+    padding-top: 5px;
+    font-style: italic;
+}
